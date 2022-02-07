@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My Spotify - Search</title>
+</head>
+<body>
+    <aside>
+        <img class="logo" src="./assets/imagens/Spotify-Logo.png" alt="Logo do Spotify">
+        <nav>
+            <ul>
+                <li><i class="fas fa-home"></i>Home</li>
+                <li><i class="fas fa-search"></i>Search</li>
+                <li><i class="fas fa-book-open"></i>Your Library</li>
+            </ul>
+        </nav>
+        <ul>
+            <li><i class="fas fa-plus"></i>Create Playlist</li>
+            <li><i class="fas fa-heart"></i>Liked Songs</li>
+            <li class="divPlaylist">
+                <ul class="ListaDePlaylists">
+                    <li>My Playlist</li>
+                </ul>
+            </li>
+            <li>
+                <i class="fas fa-arrow-circle-down"></i>Install App
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <header>
+            <a href="#BotaoDeVoltar"><i class="fas fa-2x fa-chevron-left"></i></a>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Like a Movie - B1A4">
+                <i class="fas fa-times"></i>
+            </div>
+            <a href="#ImagemDePerfil">
+                <img src="./assets/imagens/icon.jpeg" alt="">
+            </a>
+        </header>
+        <div>
+            <h2>Top result</h2>
+            <div class="CardTopResult">
+                <img src="./assets/imagens/Album-B1A4.jpg" alt="Capa do album pesquisado">
+                <h1>Like a Movie</h1>
+                <div>
+                    <a href="#LinkDoArtistaPesquisado">B1A4</a>
+                    <span>SONG</span>
+                </div>
+            </div>
+            <div>
+                <div class="SongList">
+                    <h2>Songs</h2>
+                    <a href="#">SEE ALL</a>
+                </div>
+                <ul class="TrackList">
+                    <li class="track">
+                        <img src="./assets/imagens/Album-B1A4.jpg" alt="">
+                        <div class="SongInformations">
+                            Like a Movie
+                            <a href="#">B1A4</a>
+                        </div>
+                        <div class="LikeAndTime">
+                            <i class="fas fa-heart"></i>
+                            <span>3:33</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
